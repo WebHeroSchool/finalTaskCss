@@ -15,12 +15,10 @@
             <a href="#" class="menu-nav__link">LEGACY</a>
             <a href="#" class="menu-nav__link">HELP</a>
            </nav>
-           <form class="menu-from">
-            <input type="search" class="menu-form__search">
-            <button type="submit" class="menu-form__submit"></button>
-           </form>
+           <input type="search" class="menu__search">
+           <button type="button" class="menu__button"></button>
            <a href="#" class="menu__link">SIGN IN</a>
-           <a href="#" class="menu__link">CART</a>
+           <a href="#" class="menu__link">CART <img src="images/cart.png" alt="товар в корзине"></a>
            <img src="images/usa.png" alt="usa" class="menu__languages">
         </div>
     </header>
@@ -41,46 +39,51 @@
               <img src="images/black.png" alt="модель кросовок" class="product__img">
               <a href="" class="product__name">Atlas Black/Rasta Axion</a>
               <span class="product__cost">89.00$</span>
-              <input class="product__color product__color_grey"  type="radio" name="first" value="">
-              <input class="product__color product__color_black" type="radio" name="first" value="" checked>
-              <input class="product__color product__color_red"   type="radio" name="first" value="">
-              <input class="product__color product__color_orange" type="radio" name="first" value="">
-              <span class="product__line"></span>
+              <div class="product-btn">
+                <input class="product-btn__color product-btn__color_grey"  type="radio" name="first" value="">
+                <input class="product-btn__color product-btn__color_black" type="radio" name="first" value="" checked>
+                <input class="product-btn__color product-btn__color_red"   type="radio" name="first" value="">
+                <input class="product-btn__color product-btn__color_orange" type="radio" name="first" value="">
+              </div>
             </li>
             <li class="product">
               <img src="images/red.png" alt="модель кросовок" class="product__img">
               <a href="" class="product__name">Camel/Chili Pepper Axion</a>
               <span class="product__cost">74.00$</span>
-              <input class="product__color product__color_grey" type="radio" name="second" value="">
-              <input class="product__color product__color_camel" type="radio" name="second" value="" checked>
-              <input class="product__color product__color_red" type="radio" name="second" value="">
-              <input class="product__color product__color_orange" type="radio" name="second" value="">
-              <span class="product__line"></span>
-            </li>
+              <div class="product-btn">
+                <input class="product-btn__color product-btn__color_grey" type="radio" name="second" value="">
+                <input class="product-btn__color product-btn__color_camel" type="radio" name="second" value="" checked>
+                <input class="product-btn__color product-btn__color_red" type="radio" name="second" value="">
+                <input class="product-btn__color product-btn__color_orange" type="radio" name="second" value="">
+              </li>
+              </div>
             <li class="product">
               <img src="images/grey.png" alt="модель кросовок" class="product__img">
               <a href="" class="product__name">Mandel Smoke/Rust Axion</a>
               <span class="product__cost">69.00$</span>
-              <input class="product__color product__color_grey" type="radio" name="third" value="">
-              <input class="product__color product__vinous" type="radio" name="third" value="" checked>
-              <input class="product__color product__navy" type="radio" name="third" value="">
-              <input class="product__color product__color_orange" type="radio" name="third" value="">
-              <span class="product__line"></span>
+              <div class="product-btn">
+                <input class="product-btn__color product-btn__color_grey" type="radio" name="third" value="">
+                <input class="product-btn__color product-btn__vinous" type="radio" name="third" value="" checked>
+                <input class="product-btn__color product-btn__navy" type="radio" name="third" value="">
+                <input class="product-btn__color product-btn__color_orange" type="radio" name="third" value="">
+              </div>
             </li>
             <li class="product">
               <img src="images/blue.png" alt="модель кросовок" class="product__img">
               <a href="" class="product__name">Cloud/Electric Blue Axion</a>
               <span class="product__cost">69.00$</span>
-              <input class="product__color product__color_grey" type="radio" name="fourth" value="">
-              <input class="product__color product__color_blue" type="radio" name="fourth" value="" checked>
-              <input class="product__color product__color_red" type="radio" name="fourth" value="">
-              <input class="product__color product__color_orange" type="radio" name="fourth" value="">
+              <div class="product-btn">
+                <input class="product-btn__color product-btn__color_grey" type="radio" name="fourth" value="">
+                <input class="product-btn__color product-btn__color_blue" type="radio" name="fourth" value="" checked>
+                <input class="product-btn__color product-btn__color_red" type="radio" name="fourth" value="">
+                <input class="product-btn__color product-btn__color_orange" type="radio" name="fourth" value="">
+              </div>
             </li>
           </ul>
         </div>
       </section>
       <section class="video">
-        <div class="wrap">
+        <div class="video-wrap">
           <video poster="images/video.png" class="video-wrap__player"></video>
           <button type="button" name="play-button" class="video-wrap__button"><img src="images/play.png" alt="play"></im></button>
         </div>
@@ -193,7 +196,7 @@
             </li>
           </ul>
         </div>
-      <p class="foote__text">© 2019 Axion. All rights reserved.</p>
+      <p class="footer__text">© 2019 Axion. All rights reserved.</p>
       <img src="images/whs.png" alt="Webheroschool" class="footer__img">
     </footer>
   </body>
