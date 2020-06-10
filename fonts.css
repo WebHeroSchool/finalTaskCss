@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Gotham Pro';
+	src: url('../fonts/GothamPro-Bold.woff') format('woff'), url('../fonts/GothamPro-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+}
+
 .body {
   font-family: 'Gotham Pro', sans-serif;
 }
