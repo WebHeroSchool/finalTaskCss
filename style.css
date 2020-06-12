@@ -1,0 +1,23 @@
+.header {
+  width: 87.2%;
+  margin-left: 152px;
+  height: 225px;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: inherit;
+  background-color: red;
+}
+.menu-nav{
+  background-color: blue;
+  width: 1175px;
+}
+a {
+  text-decoration: none;
+  color: black;
+
+}
