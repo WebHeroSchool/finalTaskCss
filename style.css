@@ -58,14 +58,14 @@
 
 .menu__search {
   padding-top: 1px;
-  border-width: 0px 0px 1px;
+  border-width: 0 0 1px;
   border-style: solid;
   border-color: #000;
 }
 
 .menu__button {
- visibility: hidden;
- position: relative;
+  visibility: hidden;
+  position: relative;
 }
 
 .menu__button::before {
@@ -81,6 +81,7 @@
   justify-content: space-between;
   align-items: flex-start;
 }
+
 .cart__count {
   width: 14px;
   height: 14px;
@@ -100,6 +101,7 @@
   width: 88%;
   margin-left: 70px;
 }
+
 .ad {
   background: url("images/ad.png") no-repeat;
   height: 281px;
