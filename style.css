@@ -39,7 +39,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 77%
+  width: 77%;
 }
 
 .menu-nav__link {
@@ -56,8 +56,8 @@
   letter-spacing: 0.5px;
 }
 
-.menu-form{
-position: relative;
+.menu-form {
+  position: relative;
 }
 
 .menu-form__search {
@@ -68,7 +68,7 @@ position: relative;
 }
 
 .menu-form__button {
-  visibility:hidden;
+  visibility: hidden;
   position: absolute;
   left: 89%;
   bottom: 4%;
