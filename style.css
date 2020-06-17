@@ -6,7 +6,7 @@
 
 .header {
   width: 88%;
-  margin-left: 70px;
+  margin: 0 auto;
   height: 115px;
 }
 
@@ -102,7 +102,7 @@
 
 .main {
   width: 88%;
-  margin-left: 70px;
+   margin: 0 auto;
 }
 
 .ad {
