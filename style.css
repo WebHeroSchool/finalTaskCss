@@ -82,7 +82,7 @@
 .cart {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  width: 13%;
 }
 
 .cart__count {
@@ -94,7 +94,6 @@
   border-radius: 50%;
   background-color: black;
   color: white;
-  margin-left: 4px;
 }
 
 .menu__languages {
