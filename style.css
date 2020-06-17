@@ -29,7 +29,7 @@
   display: flex;
   flex-basis: 39.2%;
   justify-content: space-between;
-  padding-top: 11px;
+  align-items: inherit;
 }
 
 .menu__logo {
@@ -48,6 +48,7 @@
   line-height: 11px;
   font-weight: 800;
   letter-spacing: 0.5px;
+
 }
 
 .menu__link {
@@ -59,10 +60,11 @@
 
 .menu-form {
   position: relative;
+  padding-top: 7px;
+  padding-left: 5px;
 }
 
 .menu-form__search {
-  padding-top: 1px;
   border-width: 0 0 1px;
   border-style: solid;
   border-color: #000;
@@ -71,8 +73,8 @@
 .menu-form__button {
   visibility: hidden;
   position: absolute;
-  left: 89%;
-  bottom: 4%;
+  left: 86%;
+  top: 20%;
 }
 
 .menu-form__button::before {
@@ -97,10 +99,6 @@
   color: white;
 }
 
-.menu__languages {
-  padding-bottom: 1px;
-}
-
 .ad {
   background: url("images/ad.png") no-repeat;
   height: 281px;
@@ -113,7 +111,7 @@
   margin: 0;
   color: white;
   text-transform: uppercase;
-  width: 10%;
+  width: 20%;
   font-size: 30px;
   line-height: 29px;
   padding-left: 60px;
