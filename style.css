@@ -130,3 +130,71 @@ a {
   text-decoration: none;
   color: black;
 }
+
+@media (max-width: 1023px) {
+  .body {
+    padding-left: 47px;
+    padding-right: 47px;
+  }
+
+  .header{
+    margin-bottom: 37px;
+  }
+
+  .menu-left{
+    flex-basis: 45.7%;
+  }
+
+  .menu-nav {
+    width: 79%;
+  }
+
+  .menu__logo {
+    padding-top: 4px;
+  }
+
+  .menu__logo img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .menu__form{
+    width: 161px;
+  }
+
+  .menu__languages{
+    width: 17px;
+  }
+
+  .menu-form__search{
+    width: 161px;
+  }
+
+  .menu__link {
+    padding-left: 3px;
+  }
+
+  .cart {
+    width: 15%;
+  }
+
+  .ad {
+    height: 254px;
+    background-size: 100%;
+  }
+
+  .ad_title {
+    padding-left: 54px;
+    padding-top: 5px;
+  }
+
+  .ad__link{
+    padding-top: 11px;
+    padding-left: 54px;
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+}
