@@ -137,11 +137,11 @@ a {
     padding-right: 47px;
   }
 
-  .header{
+  .header {
     margin-bottom: 37px;
   }
 
-  .menu-left{
+  .menu-left {
     flex-basis: 45.7%;
   }
 
@@ -158,15 +158,15 @@ a {
     height: 60px;
   }
 
-  .menu__form{
+  .menu__form {
     width: 161px;
   }
 
-  .menu__languages{
+  .menu__languages {
     width: 17px;
   }
 
-  .menu-form__search{
+  .menu-form__search {
     width: 161px;
   }
 
@@ -196,5 +196,4 @@ a {
     justify-content: space-between;
     align-items: center;
   }
-  
 }
