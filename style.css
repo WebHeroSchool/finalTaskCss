@@ -202,6 +202,16 @@ a {
   }
 }
 
+@media (max-width: 812px) {
+  .menu-right {
+    flex-basis: 45.2%;
+  }
+
+  .cart {
+    width: 17%;
+  }
+}
+
 @media (max-width: 768px) {
   .body {
     padding: 0;
