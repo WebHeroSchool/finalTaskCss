@@ -272,3 +272,73 @@ a {
     width: 36%;
   }
 }
+
+@media (max-width: 375px) {
+  .header {
+    padding-top: 24px;
+    margin-bottom: 22px;
+  }
+
+  .video-wrap__player {
+    display: none;
+  }
+
+  .menu-mobile__burger, .menu-mobile__burger::after {
+    width: 41px;
+    height: 5px;
+    margin-right: 47px;
+    margin-top: 5px;
+    }
+
+  .menu-mobile__logo {
+    padding-left: 49px;
+    }
+
+  .menu-mobile__logo img {
+    width: 103px;
+    }
+
+    .ad {
+       height: 191px;
+       background-size: 186%;
+       background-position: 19%;
+    }
+
+    .ad_title {
+      padding-left: 47px;
+      font-size: 20px;
+      width: 42%;
+      line-height: 19px;
+      padding-top: 28px;
+    }
+
+    .ad__link {
+      padding-top: 20px;
+      padding-left: 48px;
+      width: 125px;
+      font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+  .header {
+    margin-bottom: 22px;
+  }
+
+  .menu-mobile__logo {
+      padding-left: 21px;
+  }
+
+  .menu-mobile__burger, .menu-mobile__burger::after {
+     margin-right: 20px;
+  }
+
+  .ad {
+    background-size: 216%;
+    background-position: 23%;
+  }
+
+  .ad_title, .ad__link {
+    padding-left: 20px;
+  }
+}
