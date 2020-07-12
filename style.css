@@ -330,7 +330,8 @@ a {
     padding-left: 21px;
   }
 
-  .menu-mobile__burger, .menu-mobile__burger::after {
+  .menu-mobile__burger,
+  .menu-mobile__burger::after {
     margin-right: 20px;
   }
 
