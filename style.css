@@ -235,7 +235,7 @@ a {
   }
 
   .ad_title {
-    padding-top: 0px;
+    padding-top: 0;
   }
 
   .ad__link {
@@ -316,7 +316,7 @@ a {
 
 @media (max-width: 615px) {
   .header {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 }
 
@@ -325,7 +325,7 @@ a {
     height: 320px;
   }
 
-  .ad_title{
+  .ad_title {
     font-size: 30px;
     line-height: 30px;
   }
