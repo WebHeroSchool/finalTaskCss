@@ -4,6 +4,7 @@
   padding-right: 70px;
   box-sizing: border-box;
   max-width: 1170px;
+  min-width: 320px;
 }
 
 .header {
@@ -135,6 +136,28 @@ a {
   color: black;
 }
 
+.menu-form__search:hover {
+  outline: none;
+  border-width: 0 0 1px;
+}
+
+.collection__title {
+  text-align: center;
+  margin: 0;
+  padding-top: 49px;
+  font-size: 22px;
+}
+
+.products-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.product {
+  padding-left: 1px;
+}
+
 @media (max-width: 1024px) {
   .body {
     padding-left: 47px;
@@ -210,6 +233,14 @@ a {
   .cart {
     width: 17%;
   }
+
+  .ad_title {
+    padding-top: 0px;
+  }
+
+  .ad__link {
+    padding-bottom: 30px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -280,6 +311,27 @@ a {
   .ad__link svg {
     height: 14px;
     width: 36%;
+  }
+}
+
+@media (max-width: 615px) {
+  .header {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 465px) {
+  .ad {
+    height: 320px;
+  }
+
+  .ad_title{
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .ad__link {
+    padding-top: 30px;
   }
 }
 
