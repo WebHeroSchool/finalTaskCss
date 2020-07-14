@@ -137,6 +137,10 @@ a {
   color: black;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .menu-form__search:hover {
   outline: none;
   border-width: 0 0 1px;
