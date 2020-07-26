@@ -238,6 +238,12 @@ a:hover {
   border-radius: 50%;
   position: absolute;
   bottom: 3px;
+  cursor: pointer;
+}
+
+.product-btn__color:checked + .fake__btn {
+  width: 9px;
+  height: 9px;
 }
 
 .first-group__grey {
@@ -593,7 +599,6 @@ a:hover {
   }
 }
 
-
 @media (max-width: 870px) {
   .menu-right {
     flex-basis: 45.2%;
@@ -683,7 +688,6 @@ a:hover {
     width: 36%;
   }
 }
-
 
 @media (max-width: 615px) {
   .header {
