@@ -1704,7 +1704,7 @@ a:hover {
 
 @media (max-width: 320px) {
   .header {
-    margin-bottom: 22px;
+    margin-bottom: 9px;
   }
 
   .menu-mobile__logo {
@@ -1719,10 +1719,86 @@ a:hover {
   .shop {
     background-size: 216%;
     background-position: 23%;
+    margin-bottom: 1px;
   }
 
   .shop__title,
   .shop__link {
     padding-left: 20px;
+  }
+
+  .video {
+    padding-bottom: 0;
+  }
+
+  .video-text {
+    width: 87%;
+  }
+
+  .video-text__content {
+    width: 100%;
+  }
+
+  .video-wrap {
+    width: 89%;
+  }
+
+  .storie {
+    width: 87%;
+  }
+
+  .storie__text {
+    margin-bottom: 24px;
+  }
+
+  .storie__title {
+    margin-bottom: 8px;
+  }
+
+  .news {
+    margin-bottom: 72px;
+  }
+
+  .photo__title {
+    padding-right: 26px;
+  }
+
+  .photo::before {
+    bottom: 187px;
+  }
+
+  .photo-tape {
+    width: 86.5%;
+    padding-left: 21px;
+  }
+
+  .photo-tape__wrap {
+    width: 50%;
+    height: 140px;
+  }
+
+  .photo-tape__img {
+    width: 101.7%;
+  }
+
+  .main {
+    margin-bottom: 86px;
+  }
+
+  .group:nth-child(3) {
+    padding-top: 38px;
+  }
+
+  .discount {
+    width: 52%;
+  }
+
+  .group:nth-child(4) .group__link {
+    margin-bottom: 19px;
+  }
+
+  .footer-end {
+    margin-left: 43px;
+    width: 70%;
   }
 }
