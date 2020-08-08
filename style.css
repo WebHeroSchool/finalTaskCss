@@ -208,7 +208,7 @@ a:hover {
   position: absolute;
   right: 229px;
   top: 59px;
-  background: #00000033;
+  background: #0003;
 }
 
 .product:nth-child(1)::after {
@@ -628,6 +628,7 @@ a:hover {
   .main {
     padding-left: 47px;
     padding-right: 47px;
+    margin-bottom: 88px;
   }
 
   .shop {
@@ -869,10 +870,6 @@ a:hover {
     margin-bottom: 27px;
   }
 
-  .main {
-    margin-bottom: 88px;
-  }
-
   .footer-end {
     margin-left: 351px;
     margin-top: 41px;
@@ -1008,7 +1005,7 @@ a:hover {
 
   .collection__title {
     padding-top: 29px;
-    padding-right:   16px;
+    padding-right: 16px;
     font-size: 30px;
   }
 
@@ -1146,7 +1143,7 @@ a:hover {
     width: 100%;
     background: black;
     top: -18px;
-    transform:  skewY(2.6deg);
+    transform: skewY(2.6deg);
   }
 
   .video-wrap__button {
@@ -1169,10 +1166,6 @@ a:hover {
     font-size: 30px;
   }
 
-  .storie:nth-child(3) {
-    display: none;
-  }
-
   .storie__img {
     width: 93%;
     height: 36%;
@@ -1184,8 +1177,12 @@ a:hover {
     width: 44%;
   }
 
+  .storie:nth-child(3) {
+    display: none;
+  }
+
   .storie:nth-child(2) {
-    margin-left: 0px;
+    margin-left: 0;
     margin-right: 21px;
   }
 
@@ -1207,11 +1204,6 @@ a:hover {
     color: white;
   }
 
-  .storie__link {
-    font-size: 20px;
-    color: white;
-  }
-
   .storie__link svg {
     stroke: white;
     height: 13px;
@@ -1226,11 +1218,7 @@ a:hover {
   }
 
   .storie:nth-child(2) .storie__date {
-    padding-left: 14px
-  }
-
-  .photo-tape__wrap:nth-child(8) {
-    display: inline-block;
+    padding-left: 14px;
   }
 
   .photo {
@@ -1240,6 +1228,10 @@ a:hover {
   .photo-tape__wrap {
     width: 25%;
     height: 170px;
+  }
+
+  .photo-tape__wrap:nth-child(8) {
+    display: inline-block;
   }
 
   .photo-tape {
@@ -1315,7 +1307,7 @@ a:hover {
   }
 
   .group-social__link svg {
-    width: 85%
+    width: 85%;
   }
 
   .footer-end {
@@ -1542,12 +1534,6 @@ a:hover {
     margin-bottom: 84px;
   }
 
-  .video-text__title {
-    font-size: 20px;
-    text-align: center;
-    width: 80%;
-  }
-
   .video-text {
     padding-top: 12px;
     padding-right: 2px;
@@ -1556,9 +1542,10 @@ a:hover {
   .video-text__title {
     font-size: 20px;
     text-align: center;
+    width: 80%;
   }
 
-  .video-text__content{
+  .video-text__content {
     font-size: 14px;
     line-height: 17px;
     width: 86%;
@@ -1650,15 +1637,15 @@ a:hover {
   }
 
   .photo-tape__wrap:nth-child(3) {
-    order:3;
+    order: 3;
   }
 
   .photo-tape__wrap:nth-child(5) {
-    order:2;
+    order: 2;
   }
 
   .photo-tape__wrap:nth-child(7) {
-    order:1;
+    order: 1;
   }
 
   .photo-tape__wrap:nth-child(8) {
@@ -1693,23 +1680,22 @@ a:hover {
     padding-top: 38px;
   }
 
-  .group:nth-child(2) .group__link {
-    margin-bottom: 5px;
-  }
-
   .group:nth-child(3) {
     padding-right: 2px;
     padding-top: 38px;
     padding-left: 0;
   }
 
-  .group:nth-child(3) .group__link {
-    margin-bottom: 5px;
-  }
-
   .group:nth-child(4) {
     padding-left: 0;
+    padding-top: 40px;
     order: 2;
+  }
+
+
+  .group__link {
+    font-size: 15px;
+    margin-bottom: 8px;
   }
 
   .group__link_title {
@@ -1717,19 +1703,18 @@ a:hover {
     margin-bottom: 4px;
   }
 
-  .group__link {
-    font-size: 15px;
-    margin-bottom: 8px;
+  .group:nth-child(2) .group__link {
+    margin-bottom: 5px;
+  }
+
+  .group:nth-child(3) .group__link {
+    margin-bottom: 5px;
   }
 
   .discount {
     width: 46%;
     letter-spacing: 0;
     text-align: center;
-  }
-
-  .group:nth-child(4) {
-    padding-top: 40px;
   }
 
   .group:nth-child(4) .group__link_title {
@@ -1753,7 +1738,7 @@ a:hover {
   }
 
   .group-social__link svg {
-    width: 100%
+    width: 100%;
   }
 
   .footer-end {
