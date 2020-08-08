@@ -1325,6 +1325,10 @@ a:hover {
     display: none;
   }
 
+  .storie {
+    margin-left: 0;
+  }
+
   .storie:nth-child(2) {
     display: none;
   }
@@ -1336,10 +1340,6 @@ a:hover {
   .video-text__title {
     width: 94%;
     text-align: center;
-  }
-
-  .storie {
-    margin-left: 0;
   }
 
   .storie__img {
@@ -1691,7 +1691,6 @@ a:hover {
     padding-top: 40px;
     order: 2;
   }
-
 
   .group__link {
     font-size: 15px;
