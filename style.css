@@ -404,6 +404,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 75px;
+  margin-top: -1px;
 }
 
 .news__title {
@@ -929,7 +930,7 @@ a:hover {
   }
 
   .header {
-    margin-bottom: 0px;
+    margin-bottom: 23px;
     padding-top: 42px;
     padding-right: 0;
     padding-left: 0;
@@ -971,14 +972,14 @@ a:hover {
 
   .main {
     padding: 0;
-    margin-bottom: 124px;
+    margin-bottom: 126px;
   }
 
   .shop {
     background-size: 200%;
     background-position: 17%;
     padding-bottom: 66px;
-    margin-bottom: 0;
+    margin-bottom: 21px;
   }
 
   .shop__title {
@@ -1339,6 +1340,44 @@ a:hover {
   .stories-list {
     justify-content: center;
   }
+
+  .video-text__title {
+    width: 94%;
+    text-align: center;
+  }
+
+  .storie {
+    margin-left: 0;
+  }
+
+  .storie__img {
+    width: 100%;
+    height: 30%;
+  }
+
+  .storie__title {
+    font-size: 22px;
+  }
+
+  .storie__text {
+    width: 288px;
+  }
+
+  .footer {
+    flex-flow: wrap;
+  }
+
+  .block-groups {
+    flex-flow: column;
+  }
+
+  .group {
+    align-items: center;
+  }
+
+  .discount {
+    text-align: center;
+  }
 }
 
 @media (max-width: 615px) {
@@ -1353,6 +1392,19 @@ a:hover {
   .shop__link {
     padding-top: 35px;
   }
+
+  .storie {
+    width: 55%;
+  }
+
+  .storie__text {
+    width: 266px;
+  }
+
+  .storie__img {
+    width: 90%;
+    height: 30%;
+  }
 }
 
 @media (max-width: 465px) {
@@ -1365,12 +1417,24 @@ a:hover {
   .shop__link {
     padding-top: 30px;
   }
+
+  .storie__img {
+    width: 100%;
+  }
+
+  .storie {
+    width: 65%;
+  }
+
+  .storie__title {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 375px) {
   .header {
     padding-top: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 9px;
   }
 
   .menu-mobile__burger,
@@ -1393,6 +1457,7 @@ a:hover {
     background-size: 186%;
     background-position: 19%;
     padding-bottom: 19px;
+    margin-bottom: 1px;
   }
 
   .shop__title {
@@ -1535,19 +1600,20 @@ a:hover {
 
   .storie__img {
     width: 100%;
-    height: 41.2%;
+    height: 42%;
     margin-bottom: 26px;
   }
 
   .storie__title {
     font-size: 20px;
+    margin-bottom: 8px;
   }
 
   .storie__text {
     font-size: 14px;
     line-height: 17px;
     width: 279px;
-    margin-bottom: 27px;
+    margin-bottom: 23px;
   }
 
   .storie__link {
@@ -1579,7 +1645,7 @@ a:hover {
   }
 
   .photo-tape__wrap {
-    width: 49%;
+    width: 50%;
     height: 139px;
   }
 
@@ -1633,7 +1699,7 @@ a:hover {
 
   .group:nth-child(3) {
     padding-right: 2px;
-    padding-top: 36px;
+    padding-top: 38px;
     padding-left: 0;
   }
 
@@ -1748,7 +1814,7 @@ a:hover {
   }
 
   .storie__text {
-    margin-bottom: 24px;
+    margin-bottom: 22px;
   }
 
   .storie__title {
@@ -1786,7 +1852,7 @@ a:hover {
   }
 
   .group:nth-child(3) {
-    padding-top: 38px;
+    padding-top: 40px;
   }
 
   .discount {
