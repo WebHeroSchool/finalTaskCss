@@ -580,6 +580,10 @@ a:hover {
     height: 46%;
     margin-bottom: 27px;
   }
+
+  .storie__text {
+    width: 281px;
+  }
 }
 
 @media (max-width: 1065px) {
@@ -933,6 +937,10 @@ a:hover {
 
   .video-text__content {
     width: 212px;
+  }
+
+  .storie:nth-child(2) {
+    margin-right: 0;
   }
 }
 
@@ -1683,10 +1691,6 @@ a:hover {
     height: 10px;
     width: 23%;
     padding-left: 11px;
-  }
-
-  .storie__date {
-    padding-left: 48px;
   }
 
   .photo__title {
