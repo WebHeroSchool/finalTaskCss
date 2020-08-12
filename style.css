@@ -877,7 +877,6 @@ a:hover {
     padding-left: 0;
   }
 
-
   .storie:nth-child(2) {
     margin-left: 40px;
     margin-right: 26px;
@@ -916,6 +915,10 @@ a:hover {
     right: 250px;
   }
 
+  .storie {
+    width: 40%;
+  }
+
   .storie:nth-child(3) {
     display: none;
   }
@@ -932,9 +935,6 @@ a:hover {
     width: 212px;
   }
 
-  .storie {
-    width: 40%;
-  }
 }
 
 @media (max-width: 870px) {
