@@ -405,7 +405,6 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 75px;
-  margin-top: -1px;
 }
 
 .news__title {
@@ -464,6 +463,7 @@ a:hover {
 .storie__date {
   font-size: 12px;
   opacity: 0.3;
+  padding-right: 6px;
 }
 
 .photo__title {
@@ -1210,6 +1210,8 @@ a:hover {
     background-color: black;
     color: white;
     padding-bottom: 40px;
+    margin-bottom: 83px;
+    margin-top: -1px;
   }
 
   .news__title {
@@ -1219,7 +1221,7 @@ a:hover {
 
   .storie__img {
     width: 93%;
-    height: 36%;
+    height: 168px;
     margin-bottom: 26px;
   }
 
@@ -1259,7 +1261,7 @@ a:hover {
   .storie__link svg {
     stroke: white;
     height: 13px;
-    width: 23%;
+    width: 28%;
   }
 
   .storie__date {
@@ -1269,7 +1271,7 @@ a:hover {
   }
 
   .storie:nth-child(2) .storie__date {
-    padding-left: 14px;
+    padding-right: 25px;
   }
 
   .photo {
@@ -1315,7 +1317,7 @@ a:hover {
   }
 
   .group {
-    padding-left: 54px;
+    padding-left: 51px;
     padding-top: 56px;
   }
 
@@ -1667,7 +1669,7 @@ a:hover {
 
   .storie__img {
     width: 100%;
-    height: 42%;
+    height: 148px;
     margin-bottom: 26px;
   }
 
@@ -1685,6 +1687,10 @@ a:hover {
 
   .storie__link {
     font-size: 12px;
+  }
+
+  .storie__date {
+    padding-right: 0;
   }
 
   .storie__link svg {
