@@ -574,13 +574,6 @@ a:hover {
   display: none;
 }
 
-.product__name,
-.video-text__content,
-.storie__text,
-.group__link {
-  font-family: Gotham Pro-normal;
-}
-
 @media (max-width: 1100px) {
   .storie__img {
     width: 90%;
